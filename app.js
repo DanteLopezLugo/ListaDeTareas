@@ -1,8 +1,16 @@
 const colors = require('colors');
+const { mostrarMenu, pausa } = require('./helpers/mensajes');
 
 const main = async() => {
 
-    console.log('Buenas tardes XD');
+    let opcion = '';
+
+    do {
+
+        opcion = await mostrarMenu();
+        await pausa();
+
+    } while (opcion !== '0');
 
 };
 
