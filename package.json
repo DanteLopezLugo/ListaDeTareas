@@ -19,6 +19,6 @@
   "homepage": "https://github.com/DanteLopezLugo/ListaDeTareas#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^9.0.0"
+    "inquirer": "^8.1.2"
   }
 }
