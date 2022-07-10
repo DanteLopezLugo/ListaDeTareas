@@ -31,6 +31,15 @@ class Tareas {
 
     }
 
+    listadoCompleto(){
+
+        this.listadoArray.forEach( (tarea, i) => {
+            const estado = (tarea.fechaCompletado) ? 'Completado'.green : 'Pendiente'.red;
+            console.log(`${i} - ${tarea.descripcion} :: ${estado}`);
+        });
+
+    }
+
 }
 
 module.exports = Tareas;
